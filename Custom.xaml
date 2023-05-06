@@ -1,0 +1,28 @@
+﻿<!-- 服务器主页文件 请勿修改-->
+
+<local:MyCard Title="awa" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Image Height="200" HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/AGH11111/MyServer/main/1.jpg" />
+        <TextBlock TextWrapping="Wrap" Margin="140,8,0,6" Foreground="#CCCC00"
+                    Text="欢迎游玩服务器！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="文件更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                    Text="mod已更新，点击下方按钮下载" />
+        <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
+        <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
+        <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
+                    Text="Download On Browser" EventType="打开网页" EventData="https://mediafilez.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="其他" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
+                    Text="查看更新内容" ToolTip="打开网页"  EventType="打开网页" EventData="https://docs.qq.com/doc/DQmF5U2VraVRUYUNi"/>
+    </StackPanel>
+</local:MyCard>
