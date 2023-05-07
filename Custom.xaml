@@ -11,12 +11,12 @@
 <local:MyCard Title="文件更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,8,0,2" IsWarn="False"
-                    Text="mod已更新，点击下方按钮下载" />
+                    Text="暂无更新" />
         <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
         <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
         <local:MyHint Text="下载完后请手动将下载目录下的mod文件移至mod文件夹！" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="Download On Browser" EventType="打开网页" EventData="https://mediafilez.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar" />
+                    Text="Download On Browser" EventType="弹出窗口" EventData="更新|暂无更新" />
     </StackPanel>
 </local:MyCard>
 
